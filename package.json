@@ -1,0 +1,40 @@
+{
+  "name": "eye-metric-nodejs-sdk",
+  "version": "0.1.0",
+  "description": "A eye metric SDK for Bun, React Native, and Node.js",
+  "author": "cyz1901",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build index.ts --outdir dist",
+    "prepare": "bun run build",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "keywords": [
+    "analytics",
+    "bun",
+    "tracking",
+    "sdk",
+    "nodejs",
+    "react-native",
+    "event"
+  ]
+}
