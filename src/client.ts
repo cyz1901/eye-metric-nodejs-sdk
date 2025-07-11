@@ -1,5 +1,5 @@
-import type { CapturePayload, RawEvent } from "./types.ts";
-import { nowIsoTimestamp, generateUUID } from "./utils.ts";
+import type { CapturePayload, RawEvent } from "./types";
+import { nowIsoTimestamp, generateUUID } from "./utils";
 
 /**
  * Options for initializing the AnalyticsClient

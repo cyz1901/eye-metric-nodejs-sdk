@@ -1,0 +1,7 @@
+name = "eye-metric-nodejs-sdk"
+main = "dist/index.js"
+entrypoint = "src/index.ts"
+
+# bun build 输出配置
+[define]
+BUN_BUILD = "true"

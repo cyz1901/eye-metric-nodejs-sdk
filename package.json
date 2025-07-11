@@ -1,6 +1,10 @@
 {
   "name": "eye-metric-nodejs-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyz1901/eye-metric-nodejs-sdk.git"
+  },
   "description": "A eye metric SDK for Bun, React Native, and Node.js",
   "author": "cyz1901",
   "license": "MIT",
@@ -18,7 +22,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "bun build index.ts --outdir dist",
+    "build": "bun build src/index.ts --outdir dist",
     "prepare": "bun run build",
     "test": "bun test"
   },
